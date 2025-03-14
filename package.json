@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "Duy Lâm <thanhduyuth@gmail.com>",
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -16,6 +16,8 @@
     "express": "^4.21.2",
     "mongodb": "^6.14.2",
     "mongoose": "^8.12.1",
-    "nodemon": "^3.1.9"
-  }
+    "nodemon": "^3.1.9",
+    "yarn": "^1.22.22"
+  },
+  "repository": "https://github.com/ThanhDuy2024/Core-Test-Api.git"
 }
