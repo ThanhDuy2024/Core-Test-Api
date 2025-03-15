@@ -5,10 +5,10 @@ const routerClient = require('./router/index.route');
 const database = require('./config/database');
 const cookieParser = require('cookie-parser')
 const cors = require('cors');
-
+require('dotenv').config;
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+app.use(cors({ origin: `${process.env.URL_VITE}`, credentials: true }));
 
 routerClient(app);
 database.connect();
